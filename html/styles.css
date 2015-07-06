@@ -1,0 +1,11 @@
+.red {background-color:#fd7070;}
+.green {background-color:#89E894;}
+.orange {background-color:#ffa500;}
+.feat {background-color:#d3d3d3;}
+
+.red.hover {background-color:#cd3030;}
+.green.hover {background-color:#49b854;}
+.orange.hover {background-color:#cf6500;}
+.feat.hover {background-color:#c3c3c3;}
+
+.hover {background-color:#dddddd;}

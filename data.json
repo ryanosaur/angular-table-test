@@ -1,0 +1,145 @@
+[
+{
+  "Feature/Engine": "§exponentiation",
+    "FF1": "Yes",
+    "FF2": "Yes",
+    "IE1": "No",
+    "IE2": "No",
+    "IE3": "No",
+    "WK1": "No",
+    "iOS1": "No",
+    "iOS2": "No"
+},
+{
+  "Feature/Engine": "§function.sentc",
+  "FF1": "Yes",
+  "FF2": "Yes",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§Object.observec",
+  "FF1": "No",
+  "FF2": "No",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "Yes",
+  "iOS1": "No",
+  "iOS2": "Yes"
+},
+{
+  "Feature/Engine": "§Array.prototype.includesc",
+  "FF1": "No",
+  "FF2": "Yes",
+  "IE1": "Partial",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§SIMD",
+  "FF1": "Yes",
+  "FF2": "Yes",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "Yes",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§trailing commas in function syntax",
+  "FF1": "Yes",
+  "FF2": "Yes",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§object rest propertiesc",
+  "FF1": "Yes",
+  "FF2": "Yes",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§async functions",
+  "FF1": "Yes",
+  "FF2": "Yes",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§typed objectsc",
+  "FF1": "Yes",
+  "FF2": "Yes",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§object spread propertiesc",
+  "FF1": "Yes",
+  "FF2": "No",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§ArrayBuffer.transferc",
+  "FF1": "Yes",
+  "FF2": "Yes",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "No",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§class decoratorsc",
+  "FF1": "Yes",
+  "FF2": "Yes",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "Partial",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+},
+{
+  "Feature/Engine": "§async generatorsc",
+  "FF1": "Yes",
+  "FF2": "No",
+  "IE1": "No",
+  "IE2": "No",
+  "IE3": "Yes",
+  "WK1": "No",
+  "iOS1": "No",
+  "iOS2": "No"
+}
+]
