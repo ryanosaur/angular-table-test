@@ -34,7 +34,7 @@ angular.module('app', ['ui.router'])
 .factory('TableService', function($http){
   return {
     getAllData: function(){
-      return $http.get('http://localhost:3000/data');
+      return $http.get('/data');
     }
   };
 });
