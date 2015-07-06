@@ -9,9 +9,14 @@ angular.module('app', ['ui.router'])
     url: '/table',
     templateUrl: 'table.html',
     controller: 'TableCtrl'
+  })
+  .state('table.activeRow', {
+    url: '/table/:row',
+    templateUrl: 'table.html',
+    controller: 'TableCtrl'
   });
 })
-.controller('TableCtrl', function($scope, TableService){
+.controller('TableCtrl', function($scope, $state, TableService){
   var loadTable = function(){
     TableService.getAllData()
     .success(function(data){
@@ -35,6 +40,14 @@ angular.module('app', ['ui.router'])
   $scope.resetHighlighting = function(){
     $scope.rowHover = false;
     $scope.colHover = false;
+  }
+
+  $scope.setActiveRow = function(row){
+    return $scope.activeRow = row;
+  }
+
+  $scope.isActiveRow = function(row){
+    return $scope.activeRow === row;
   }
 })
 .factory('TableService', function($http){

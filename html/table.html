@@ -10,7 +10,8 @@
         ng-mouseenter="highlight($index, $parent.$index)"
         ng-mouseleave="resetHighlight()"
         class='{{CellColor[row[column]] || "feat"}}'
-        ng-class="[{ hover: ($index == colHover || $parent.$index == rowHover) }]"
+        ng-click='setActiveRow($parent.$index)'
+        ng-class="[{ hover: ($index == colHover || $parent.$index == rowHover) || isActiveRow($parent.$index) }]"
         >
         {{row[column]}}
       </td>
